@@ -1,0 +1,50 @@
+*,
+*::before,
+*::after {
+  margin: 0;
+  padding: 0;
+  box-sizing: inherit;
+  font-family: 'Hind Siliguri', sans-serif; }
+
+html {
+  box-sizing: border-box;
+  font-size: 62.5%; }
+
+.main {
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-image: linear-gradient(to top right, #7bdff2, #5da8b6); }
+
+.card {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: space-around;
+  background-color: #eff7f6;
+  height: 25rem;
+  padding: 3rem 6rem;
+  border-radius: 4px;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.3); }
+
+.heading-1 {
+  font-size: 2.4rem; }
+
+.heading-2 {
+  color: #7D7C7A; }
+
+.btn {
+  border: none;
+  border-radius: 5px;
+  background-color: #7776bc;
+  color: #eff7f6;
+  padding: 1.5rem 3rem;
+  font-weight: 600;
+  font-size: 1.6rem;
+  cursor: pointer;
+  transition: all .3s;
+  box-shadow: 0 2px 5px rgba(0, 0, 0, 0.5); }
+  .btn:active {
+    transform: translateY(2px);
+    box-shadow: 0 1px 6px rgba(0, 0, 0, 0.5); }
